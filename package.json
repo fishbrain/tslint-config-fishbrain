@@ -1,10 +1,10 @@
 {
   "name": "tslint-config-fishbrain",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TSLint config for Fishbrain TypeScript projects",
-  "main": "index.js",
+  "main": "tslint.json",
   "scripts": {
-    "test": "tslint --project ."
+    "test": "tslint --test ."
   },
   "repository": {
     "type": "git",

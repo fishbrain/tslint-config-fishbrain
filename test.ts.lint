@@ -1,0 +1,11 @@
+// Very basic test for now
+
+var foo = 1;
+~~~          [Forbidden 'var' keyword, use 'let' or 'const' instead]
+
+const octopus = 5;
+
+let giraffe: number, tiger: number;
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ [Multiple variable declarations in the same statement are forbidden]
+    ~~~~~~~~~~~~~~~                 [Unexpected let, use const instead.]
+                     ~~~~~~~~~~~~~  [Unexpected let, use const instead.]
