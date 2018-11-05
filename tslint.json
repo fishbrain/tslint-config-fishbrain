@@ -8,6 +8,7 @@
   ],
   "rules": {
     // Overrides for rules in tslint:latest
+    "import-name": false,
     "interface-name": false,
     "no-console": false,
     "no-implicit-dependencies": [true, ["aws-lambda"]],
