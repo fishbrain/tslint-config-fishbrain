@@ -7,12 +7,18 @@
     "tslint-plugin-prettier"
   ],
   "rules": {
+    "linebreak-style": [true, "LF"],
+    "max-classes-per-file": [true, 1],
+    "no-irregular-whitespace": true,
+    "no-magic-numbers": true,
+    "only-arrow-functions": true,
+
     // Overrides for rules in tslint:latest
     "import-name": false,
     "interface-name": false,
     "no-console": false,
     "no-implicit-dependencies": [true, ["aws-lambda"]],
-    "object-literal-sort-keys": [true, "shorthand-first"],
+    "object-literal-sort-keys": [true, "ignore-case", "shorthand-first"],
     "variable-name": [
       true,
       "ban-keywords",
