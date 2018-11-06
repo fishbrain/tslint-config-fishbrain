@@ -12,6 +12,8 @@
     "no-irregular-whitespace": true,
     "no-magic-numbers": true,
     "only-arrow-functions": true,
+    "no-unnecessary-callback-wrapper": true,
+    "no-switch-case-fall-through": true,
 
     // Overrides for rules in tslint:latest
     "import-name": false,
