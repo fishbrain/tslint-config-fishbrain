@@ -33,7 +33,7 @@
     "no-parameter-reassignment": true,
     "typedef": [true, "call-signature"],
     "no-let": true,
-    "no-array-mutation": true,
+    "no-array-mutation": [true, "ignore-mutation-following-accessor"],
     "no-object-mutation": true,
     "no-delete": true
   }
