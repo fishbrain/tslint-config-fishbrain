@@ -7,6 +7,7 @@
     "tslint-plugin-prettier"
   ],
   "rules": {
+    // From tslint base rules
     "linebreak-style": [true, "LF"],
     "max-classes-per-file": [true, 1],
     "no-irregular-whitespace": true,
@@ -14,6 +15,7 @@
     "only-arrow-functions": true,
     "no-unnecessary-callback-wrapper": true,
     "no-switch-case-fall-through": true,
+    "no-unnecessary-class": true,
 
     // Overrides for rules in tslint:latest
     "import-name": false,
@@ -27,6 +29,18 @@
       "check-format",
       "allow-leading-underscore"
     ],
+
+    // From tslint-microsoft-contrib
+    "no-unnecessary-local-variable": true,
+    "no-unnecessary-override": true,
+    "no-useless-files": true,
+    "no-with-statement": true,
+    "no-constant-condition": [true, { "checkLoops": false }],
+    "no-empty-line-after-opening-brace": true,
+    "no-for-in": true,
+    "no-invalid-regexp": true,
+    "no-typeof-undefined": true,
+    "no-unnecessary-bind": true,
 
     // Immutability rules
     "no-var-keyword": true,
