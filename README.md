@@ -19,3 +19,20 @@ tslint.json
   "extends": ["tslint-config-fishbrain"]
 }
 ```
+
+### Recommended tsconfig.json settings
+
+In addition to setting target, module, moduleResolution etc,
+these strictness settings are recommended.
+
+```json
+{
+  "compilerOptions": {
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  }
+}
+```
