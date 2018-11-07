@@ -1,0 +1,5 @@
+const five = 5;
+const fiveHours = five * 60 * 60;
+
+const magic = 1 * 1337;
+                  ~~~~  ['magic numbers' are not allowed]
