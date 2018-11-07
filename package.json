@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-fishbrain",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "TSLint config for Fishbrain TypeScript projects",
   "main": "tslint.json",
   "scripts": {
