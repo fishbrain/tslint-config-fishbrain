@@ -36,3 +36,14 @@ these strictness settings are recommended.
   }
 }
 ```
+
+### Recommended package.json prettier settings
+
+Add this to `package.json` to get correct config for [prettier](https://prettier.io/)
+
+```
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+```
